@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1595879649 source:c:\users\conor\documents\dev\stringutility\src\string_utility.cpp
+	<string>
+	<vector>
+	"../include/string_utility.h"
+
+1595879622 c:\users\conor\documents\dev\stringutility\include\string_utility.h
+	<vector>
+	<string>
+

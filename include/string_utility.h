@@ -7,8 +7,9 @@
 
 namespace string_utility
 {
-    std::vector<std::string> explode(std::string sourceStr, char delimiter);
     std::string getCharsUntil(std::string sourceStr, char delimiter, int startIndex=0);
+    std::string getCharsAfter(std::string sourceString, char delimiter, int startIndex=0);
+    std::vector<std::string> explode(std::string sourceStr, char delimiter);
 }
 
 #endif // STRING_UTILITY_H
