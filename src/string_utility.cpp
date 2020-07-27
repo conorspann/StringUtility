@@ -59,3 +59,15 @@ std::vector<std::string> string_utility::explode(std::string sourceStr, char del
     return explodedResult;
 }
 
+
+std::string string_utility::implode(std::vector<std::string> sourceVec, char delimiter)
+{
+    std::string result;
+
+    for (int elementIndex = 0; elementIndex < sourceVec.size(); elementIndex++) {
+        result += sourceVec[elementIndex];
+        result += delimiter;
+    }
+
+    return result;
+}
